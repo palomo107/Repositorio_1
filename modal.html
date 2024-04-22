@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Archivo Modal</title>
+
+    <link rel="stylesheet" href="carpeta/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="carpeta/css/styles.css">
+    <link rel="icon" href="carpeta/img/rocket.svg" type="icon/x-image">
+
+
+
+</head>
+
+<body>
+
+    
+
+
+    <div class="container py-4">
+
+        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#mi-modal"> 
+            Abrir Modal
+        </button>
+
+        <div class="modal fade" id="mi-modal" data-bs-backdrop="static">
+
+            <div class="modal-dialog">
+                <div class="modal-content">
+
+                    <div class="modal-header">
+                        <h5 class="modal-title">Modal title</h5>
+                        <button class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <div class="modal-body">
+                        <p>Modal body text goes here.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, odio aperiam officia
+                            blanditiis laudantium tenetur dignissimos saepe quia sit. Placeat ut sed vero velit
+                            voluptate, voluptatibus facere quod quibusdam consectetur.</p>
+                    </div>
+
+                    <div class="modal-footer">
+                        <button class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+                        <button class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="container py-4">
+         
+        <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#mi-modal"> 
+            Mi Carrito
+        </button>
+
+        <div class="modal fade" id="mi-modal" data-bs-backdrop="static">
+
+            <div class="modal-dialog">
+                <div class="modal-content">
+
+                    <div class="modal-header">
+                        <h5 class="modal-title">Modal title</h5>
+                        <button class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <div class="modal-body">
+                        <p>Modal body text goes here.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, odio aperiam officia
+                            blanditiis laudantium tenetur dignissimos saepe quia sit. Placeat ut sed vero velit
+                            voluptate, voluptatibus facere quod quibusdam consectetur.</p>
+                    </div>
+
+                    <div class="modal-footer">
+                        <button class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+                        <button class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <!-- Script Jquery, popper, boostrap o propios -->
+    <script src="carpeta/js/popper.min.js"></script>
+    <script src="carpeta/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
+
+
+<!--
+
+<div class="container py-4">        
+
+        <button 
+            class="btn btn-primary" : boton de color azul  
+            data-bs-toggle="modal"  : esta propiedad permite abrir el modal
+            data-bs-target="#mi-modal" : este atributo indica que modal abrirá, paraell
+            > 
+            Abrir Modal : texto que aparece en el botón
+        </button>
+
+        <div 
+            class="modal fade"   : con fade la ventana no se abre de forma brusca 
+            id="mi-modal" para identificarlo
+            data-bs-backdrop="static" : para que la ventana no se cierra al hacer clic fuera del recuadro  del modal
+            >
+
+            <div
+                 class="modal-dialog 
+                 modal-dialog-scrollable  : la segunda parte indica que el modal tendra una barra de navegacion vertical cuando haya mucha informacion. depende de la version
+                 modal-dialog-center      : para que el modal aparezca en el centro de la pantalla
+                 ">
+                <div class="modal-content">
+ 
+                    <div 
+                        class="modal-header" :para colocar la cabecera del modal
+                        >
+
+                        <h5
+                            class="modal-title"
+                            >
+                            Modal title : Titulo del modal y lo que aparece en el cuadro
+
+                        </h5>
+
+                        <button 
+                        class="btn-close" : muestra una X para cerrar la ventana 
+                        data-bs-dismiss="modal" habilita a la X a cerrar la ventana
+                        ></button>
+                    </div>
+
+                    <div class="modal-body">
+                        <p>Modal body text goes here.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, odio aperiam officia
+                            blanditiis laudantium tenetur dignissimos saepe quia sit. Placeat ut sed vero velit
+                            voluptate, voluptatibus facere quod quibusdam consectetur.</p>
+                    </div>
+
+                    <div class="modal-footer">
+                        <button class="btn btn-danger" : de color rojo  
+                            data-bs-dismiss="modal" : para cerrar el modal
+                                >Cancelar
+                            
+                        </button>
+
+                        <button class="btn btn-primary" boton azul
+                            >
+                            Save changes
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+-->
